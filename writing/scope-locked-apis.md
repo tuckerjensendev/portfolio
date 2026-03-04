@@ -85,9 +85,9 @@ Now the important rule:
 
 Even if you “ignore it”, you’re training future you (or future teammates) to assume it’s safe to send it. That’s how it creeps back in.
 
-### “But we need to query across projects…”
+### Cross-project queries are a different capability
 
-Cool. That is not the baseline API. That’s a *different capability*:
+If you need to query across projects, that is not the baseline API. That’s a *different capability*:
 
 - either an admin endpoint,
 - or a token with explicit selector privileges,
