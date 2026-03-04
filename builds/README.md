@@ -1,4 +1,4 @@
-# Projects (Case Studies)
+# Builds (Case Studies)
 
 These are short, engineering-first case studies of products I’ve built and documented.
 

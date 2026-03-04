@@ -17,8 +17,8 @@ A marketing/docs site plus a Django backend that acts as an admin + “console�
 - CI/CD docs that explain the real deployment mechanism (what changes trigger which workflow; what CloudShell can’t do; how to verify rollouts).
 
 ## Best places to read (docs)
-- [Ops runbook (console ↔ API triage)](../samples/lam-web/ops-runbook.md)
-- [AWS CI/CD notes (ECS/S3)](../samples/lam-web/aws-cicd.md)
+- [Ops runbook (console ↔ API triage)](../docs/lam-web/ops-runbook.md)
+- [AWS CI/CD notes (ECS/S3)](../docs/lam-web/aws-cicd.md)
 
 ## Backend topics I can write about from this work
 - Designing “console” layers: where to keep responsibility boundaries between UI/backend/core API

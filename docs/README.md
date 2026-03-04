@@ -1,6 +1,6 @@
-# Samples (Private Repo Docs, Copied Here)
+# Docs (Private Repo Docs, Copied Here)
 
-All of my non-portfolio repos are private, so for review purposes I pulled selected docs into this public repo.
+Most of my code repos are private, so for review purposes I pulled selected docs into this public repo.
 
 These are real docs I wrote for real systems: specs, runbooks, and operational notes. Anything that looked like a sensitive identifier was redacted.
 

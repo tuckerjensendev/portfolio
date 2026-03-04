@@ -17,7 +17,7 @@ Production-oriented SaaS boilerplate for a resume optimization flow: auth, file 
 - Documentation that spells out the operational reality (how to run it in dev and how to automate it in prod).
 
 ## Best places to read (docs)
-- [Order recovery playbook (stuck orders)](../samples/linqcv/order-recovery.md)
+- [Order recovery playbook (stuck orders)](../docs/linqcv/order-recovery.md)
 
 ## Backend topics I can write about from this work
 - Order state machines (paid vs processing vs failed vs refunded)

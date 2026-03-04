@@ -272,8 +272,8 @@ If your service has admin endpoints, test that token B can’t reach them, and t
 
 I built and documented a scope-locked API with a protocol-level conformance suite here:
 
-- [Conformance spec (normative)](../samples/lam-v2/conformance-spec.md)
-- [Example “what to falsify” packet (systems/security)](../samples/lam-v2/csail-review-packet.md)
+- [Conformance spec (normative)](../docs/lam-v2/conformance-spec.md)
+- [Example “what to falsify” packet (systems/security)](../docs/lam-v2/csail-review-packet.md)
 
 ## SEO notes (optional)
 

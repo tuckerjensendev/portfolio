@@ -221,7 +221,7 @@ If you can’t explain how your system behaves for each of these, you don’t ha
 
 I built and documented an order recovery system (Django + Stripe) here:
 
-- [Order Recovery doc](../samples/linqcv/order-recovery.md)
+- [Order Recovery doc](../docs/linqcv/order-recovery.md)
 
 ## SEO notes (optional)
 
