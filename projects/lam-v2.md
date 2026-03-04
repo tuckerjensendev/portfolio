@@ -1,6 +1,4 @@
-# LAM v2 — Lossless Associative Memory (v0.1)
-
-Repo: https://github.com/tuckerjensendev/lam-v2
+# LAM v2: Lossless Associative Memory (v0.1)
 
 ## What it is
 LAM is a scope-locked HTTP “memory sidecar” with proof semantics: retrieved memory items can point back to bounded source excerpts via decode endpoints.
@@ -28,10 +26,10 @@ This project forced me to write like a reviewer is trying to break it:
 - Deployment + runbooks focused on production reality (rollouts, TLS, image/CPU mismatches, “is the new version actually running?” checks).
 
 ## Best places to read (docs)
-- Conformance spec (normative): https://github.com/tuckerjensendev/lam-v2/blob/main/conformance/spec.md
-- Ops runbook: https://github.com/tuckerjensendev/lam-v2/blob/main/OPS_RUNBOOK.md
-- Deployment guide: https://github.com/tuckerjensendev/lam-v2/blob/main/DEPLOYMENT.md
-- Systems/security review packet: https://github.com/tuckerjensendev/lam-v2/blob/main/CSAIL_REVIEW_PACKET.md
+- [Conformance spec (normative)](../samples/lam-v2/conformance-spec.md)
+- [Ops runbook](../samples/lam-v2/ops-runbook.md)
+- [Deployment guide](../samples/lam-v2/deployment.md)
+- [Systems/security review packet](../samples/lam-v2/csail-review-packet.md)
 
 ## Backend topics I can write about from this work
 - Scope isolation: “derive scope from auth; reject client-supplied scope”

@@ -1,6 +1,4 @@
-# LinqCV — SaaS Boilerplate (Django/DRF + Stripe)
-
-Repo: https://github.com/tuckerjensendev/LinqCV
+# LinqCV: SaaS Boilerplate (Django/DRF + Stripe)
 
 ## What it is
 Production-oriented SaaS boilerplate for a resume optimization flow: auth, file upload, Stripe Checkout, webhook handling, background processing, and document generation.
@@ -19,8 +17,7 @@ Production-oriented SaaS boilerplate for a resume optimization flow: auth, file 
 - Documentation that spells out the operational reality (how to run it in dev and how to automate it in prod).
 
 ## Best places to read (docs)
-- README (system overview + endpoints): https://github.com/tuckerjensendev/LinqCV/blob/main/README.md
-- Order recovery playbook (stuck orders): https://github.com/tuckerjensendev/LinqCV/blob/main/ORDER_RECOVERY_README.md
+- [Order recovery playbook (stuck orders)](../samples/linqcv/order-recovery.md)
 
 ## Backend topics I can write about from this work
 - Order state machines (paid vs processing vs failed vs refunded)

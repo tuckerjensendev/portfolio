@@ -1,6 +1,4 @@
-# LAM “Prove It” — 5-minute Demo (Docker Compose)
-
-Repo: https://github.com/tuckerjensendev/lam-prove-it
+# LAM “Prove It”: 5-minute Demo (Docker Compose)
 
 ## What it is
 A fast, runnable demo that walks through the LAM proof loop:
@@ -18,5 +16,5 @@ This is the kind of “engineering blog” content I like:
 - clear expected outputs
 - zero hype
 
-## Best place to read
-- README: https://github.com/tuckerjensendev/lam-prove-it/blob/main/README.md
+## Notes
+- The original demo repo is private. If you want to see the full Compose setup and README, I can share it directly.

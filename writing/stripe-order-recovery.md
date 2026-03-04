@@ -121,7 +121,7 @@ Notes:
 
 - `status=paid` and the processing never started within a threshold
 
-Choose a threshold that matches your workload. If fulfillment usually takes 30 seconds, “stuck after 24 hours” is not a recovery loop—it’s an apology loop.
+Choose a threshold that matches your workload. If fulfillment usually takes 30 seconds, “stuck after 24 hours” is not a recovery loop. It’s an apology loop.
 
 Also: record *why* you think it’s stuck. That matters when you debug patterns later.
 
@@ -221,8 +221,7 @@ If you can’t explain how your system behaves for each of these, you don’t ha
 
 I built and documented an order recovery system (Django + Stripe) here:
 
-- README: https://github.com/tuckerjensendev/LinqCV
-- Order Recovery doc: https://github.com/tuckerjensendev/LinqCV/blob/main/ORDER_RECOVERY_README.md
+- [Order Recovery doc](../samples/linqcv/order-recovery.md)
 
 ## SEO notes (optional)
 

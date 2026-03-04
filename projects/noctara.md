@@ -1,6 +1,4 @@
-# Noctara — Website + Desktop App
-
-Repo: https://github.com/tuckerjensendev/noctara
+# Noctara: Website + Desktop App
 
 ## What it is
 Noctara includes:
@@ -10,9 +8,6 @@ Noctara includes:
 
 ## My role
 - Built the apps and wrote the deployment/operations notes so another person can ship updates without guessing.
-
-## Best places to read (docs)
-- Website README (deploy + low-disruption mode): https://github.com/tuckerjensendev/noctara/blob/main/README.md
 
 ## Backend topics I can write about from this work
 - Deployment scripts that don’t surprise you (atomic swaps, safe defaults)

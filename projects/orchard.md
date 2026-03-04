@@ -1,6 +1,4 @@
-# Orchard — Sandboxed Learning Loop (Fastify)
-
-Repo: https://github.com/tuckerjensendev/orchard
+# Orchard: Sandboxed Learning Loop (Fastify)
 
 ## What it is
 Orchard is a minimal, testable learning loop running inside a sandboxed “codebase-world”. It’s an API server that runs bounded episodes (repo fixes, OS fixes, web-research) and stores the artifacts as evidence.
@@ -20,10 +18,7 @@ This repo is basically a playground for: quotas, isolation boundaries, auditabil
 - A Fastify server with endpoints that run bounded tasks (episodes) and store tool outputs as content-addressed evidence.
 - A thin, tamper-evident ledger for episode/event logging (hash chain).
 - Quota’d, read-only “web sensor” features designed with SSRF defenses and explicit on/off toggles.
-- Retention concepts (“what delete should mean”) implemented as actual routines, not handwaving.
-
-## Best places to read (docs)
-- README (architecture + world contracts): https://github.com/tuckerjensendev/orchard/blob/main/README.md
+- Retention concepts (“what delete should mean”) implemented as actual routines, not vague promises.
 
 ## Backend topics I can write about from this work
 - Evidence stores: content addressing, integrity, and traceability

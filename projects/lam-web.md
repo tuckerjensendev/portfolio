@@ -1,6 +1,4 @@
-# LAM Web — Docs Site + Django Console
-
-Repo: https://github.com/tuckerjensendev/lam-web
+# LAM Web: Docs Site + Django Console
 
 ## What it is
 A marketing/docs site plus a Django backend that acts as an admin + “console” layer on top of the LAM API (tenant provisioning, API key minting UI, usage export, ops visibility).
@@ -19,9 +17,8 @@ A marketing/docs site plus a Django backend that acts as an admin + “console�
 - CI/CD docs that explain the real deployment mechanism (what changes trigger which workflow; what CloudShell can’t do; how to verify rollouts).
 
 ## Best places to read (docs)
-- README (project layout + dev workflow): https://github.com/tuckerjensendev/lam-web/blob/main/README.md
-- Ops runbook (console ↔ API triage): https://github.com/tuckerjensendev/lam-web/blob/main/OPS_RUNBOOK.md
-- AWS CI/CD notes (ECS/S3): https://github.com/tuckerjensendev/lam-web/blob/main/CICD_AWS.md
+- [Ops runbook (console ↔ API triage)](../samples/lam-web/ops-runbook.md)
+- [AWS CI/CD notes (ECS/S3)](../samples/lam-web/aws-cicd.md)
 
 ## Backend topics I can write about from this work
 - Designing “console” layers: where to keep responsibility boundaries between UI/backend/core API

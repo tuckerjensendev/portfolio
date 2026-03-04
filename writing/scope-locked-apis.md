@@ -8,7 +8,7 @@ This is a practical design + testing checklist for “scope-locked” APIs: syst
 
 - **Derive scope from auth, not the request body.** If a client can pick `tenant_id`, `org_id`, `user_id`, `namespace`, etc., you’ve created the most common class of authorization bugs.
 - **Treat “scope selector” as a separate capability.** If you support it, it must be narrowing-only and explicitly authorized.
-- **Lock every path, including the weird ones.** Not just your “main” `/items` endpoints—also decode, status, downloads, exports, search, and admin/metrics.
+- **Lock every path, including the weird ones.** Not just your “main” `/items` endpoints, but also decode, status, downloads, exports, search, and admin/metrics.
 - **Test with two tokens** (same tenant, different scope) and try to break it through *every* endpoint.
 - **Prefer 404 on cross-scope reads** unless you have a strong reason not to. Avoid turning existence into an oracle.
 
@@ -228,7 +228,7 @@ If anything comes back other than “not found” (or your chosen equivalent), y
 
 ### Example (curl-style)
 
-This is intentionally generic—adapt it to your API.
+This is intentionally generic; adapt it to your API.
 
 ```bash
 export TOKEN_A="..."
@@ -272,8 +272,8 @@ If your service has admin endpoints, test that token B can’t reach them, and t
 
 I built and documented a scope-locked API with a protocol-level conformance suite here:
 
-- Conformance spec (normative): https://github.com/tuckerjensendev/lam-v2/blob/main/conformance/spec.md
-- Example “what to falsify” packet (systems/security): https://github.com/tuckerjensendev/lam-v2/blob/main/CSAIL_REVIEW_PACKET.md
+- [Conformance spec (normative)](../samples/lam-v2/conformance-spec.md)
+- [Example “what to falsify” packet (systems/security)](../samples/lam-v2/csail-review-packet.md)
 
 ## SEO notes (optional)
 
